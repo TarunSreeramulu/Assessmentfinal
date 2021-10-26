@@ -1,0 +1,341 @@
+{
+	"info": {
+		"_postman_id": "dd6c2161-bd23-4749-8e52-d794aaa0ddf4",
+		"name": "Coingate",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://pay.coingate.com/invoice/feef6b9d-5c28-4ae8-a56e-bad9709bba09",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Your test name\", function () \r",
+							"{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vaibhu0106",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "tarunsreeramulu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pay.coingate.com/invoice/feef6b9d-5c28-4ae8-a56e-bad9709bba09",
+					"protocol": "https",
+					"host": [
+						"pay",
+						"coingate",
+						"com"
+					],
+					"path": [
+						"invoice",
+						"feef6b9d-5c28-4ae8-a56e-bad9709bba09"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://coingate.com/gift-cards/checkout",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Your test name\", function () \r",
+							"{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vaibhu0106",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "tarunsreeramulu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://coingate.com/gift-cards/checkout",
+					"protocol": "https",
+					"host": [
+						"coingate",
+						"com"
+					],
+					"path": [
+						"gift-cards",
+						"checkout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://coingate.com/gift-cards",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Your test name\", function () \r",
+							"{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vaibhu0106",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "tarunsreeramulu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://coingate.com/gift-cards",
+					"protocol": "https",
+					"host": [
+						"coingate",
+						"com"
+					],
+					"path": [
+						"gift-cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://coingate.com/gift-cards",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Your test name\", function () \r",
+							"{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vaibhu0106",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "tarunsreeramulu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://coingate.com/gift-cards",
+					"protocol": "https",
+					"host": [
+						"coingate",
+						"com"
+					],
+					"path": [
+						"gift-cards"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://dashboard.coingate.com/users/auth/google_oauth2?sign_up_url=https://dashboard.coingate.com/login",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Your test name\", function () \r",
+							"{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vaibhu0106",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "tarunsreeramulu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://dashboard.coingate.com/users/auth/google_oauth2?sign_up_url=https://dashboard.coingate.com/login",
+					"protocol": "https",
+					"host": [
+						"dashboard",
+						"coingate",
+						"com"
+					],
+					"path": [
+						"users",
+						"auth",
+						"google_oauth2"
+					],
+					"query": [
+						{
+							"key": "sign_up_url",
+							"value": "https://dashboard.coingate.com/login"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://pay.coingate.com/invoice/feef6b9d-5c28-4ae8-a56e-bad9709bba09",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () \r",
+							"{\r",
+							"    pm.response.to.have.status(200);\r",
+							"});\r",
+							"pm.test(\"Your test name\", function () \r",
+							"{\r",
+							"    var jsonData = pm.response.json();\r",
+							"    pm.expect(jsonData.value).to.eql(100);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "Vaibhu0106",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "tarunsreeramulu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pay.coingate.com/invoice/feef6b9d-5c28-4ae8-a56e-bad9709bba09",
+					"protocol": "https",
+					"host": [
+						"pay",
+						"coingate",
+						"com"
+					],
+					"path": [
+						"invoice",
+						"feef6b9d-5c28-4ae8-a56e-bad9709bba09"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
